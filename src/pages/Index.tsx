@@ -30,6 +30,7 @@ const Index = () => (
     <ContactSection />
     <Footer />
     <WhatsAppButton />
+    <BackToTopButton />
   </div>
 );
 
