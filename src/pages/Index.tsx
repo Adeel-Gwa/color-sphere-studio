@@ -5,13 +5,17 @@ import DistributorsSection from "@/components/DistributorsSection";
 import ServicesSection from "@/components/ServicesSection";
 import ProductsSection from "@/components/ProductsSection";
 import TrustBanner from "@/components/TrustBanner";
+import TestimonialsSection from "@/components/TestimonialsSection";
 import GallerySection from "@/components/GallerySection";
 import LocationSection from "@/components/LocationSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
+import LoadingScreen from "@/components/LoadingScreen";
 
 const Index = () => (
   <div className="min-h-screen">
+    <LoadingScreen />
     <Navbar />
     <HeroSection />
     <AboutSection />
@@ -19,10 +23,12 @@ const Index = () => (
     <ServicesSection />
     <ProductsSection />
     <TrustBanner />
+    <TestimonialsSection />
     <GallerySection />
     <LocationSection />
     <ContactSection />
     <Footer />
+    <WhatsAppButton />
   </div>
 );
 
