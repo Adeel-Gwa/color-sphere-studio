@@ -37,8 +37,8 @@ const ContactSection = () => {
               rel="noopener noreferrer"
               className="glass-card p-6 flex items-center gap-4 hover-lift block"
             >
-              <div className="w-12 h-12 rounded-xl bg-green-100 flex items-center justify-center flex-shrink-0">
-                <MessageCircle className="h-5 w-5 text-green-600" />
+              <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
+                <MessageCircle className="h-5 w-5 text-primary" />
               </div>
               <div>
                 <p className="font-bold">WhatsApp</p>
